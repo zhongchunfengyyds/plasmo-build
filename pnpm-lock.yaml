@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ianvs/prettier-plugin-sort-imports': 4.1.1
+  '@img/sharp-darwin-arm64': ^0.33.5
   '@types/chrome': 0.0.258
   '@types/node': 20.11.5
   '@types/react': 18.2.48
@@ -19,6 +20,7 @@ dependencies:
 
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports': 4.1.1_prettier@3.2.4
+  '@img/sharp-darwin-arm64': 0.33.5
   '@types/chrome': 0.0.258
   '@types/node': 20.11.5
   '@types/react': 18.2.48
@@ -414,8 +416,6 @@ packages:
     requiresBuild: true
     optionalDependencies:
       '@img/sharp-libvips-darwin-arm64': 1.0.4
-    dev: false
-    optional: true
 
   /@img/sharp-darwin-x64/0.33.5:
     resolution: {integrity: sha512-fyHac4jIc1ANYGRDxtiqelIbdWkIuQaI84Mv45KvGRRxSAa7o7d1ZKAOBaYbnepLC1WqxfpimdeWfvqqSGwR2Q==}
@@ -433,7 +433,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@img/sharp-libvips-darwin-x64/1.0.4:
